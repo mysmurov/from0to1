@@ -1,0 +1,41 @@
+.container {
+  max-width: 940px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.slider__item {
+  min-height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.thumbs .thumbs_item {
+  width: 140px;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slider {
+  margin-bottom: 17px;
+}
+
+.thumbs .slick-track {
+  transform: translate3d(0px, 0px, 0px) !important; //не трогает нижние слайды при движении большого верхнего
+}
+
+.thumbs .slick-track div+div {
+  margin-left: 20px;
+}
+
+.thumbs .slick-track div{ // убирает обводку слайда
+  outline: none;
+}
+
+.thumbs .slick-slide {
+  max-width: 140px;
+}

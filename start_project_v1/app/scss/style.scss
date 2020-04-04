@@ -1,0 +1,24 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body{
+  background-color: red;
+}
+h1{
+  color: green;
+  font-size: 52px;
+}
+
+p{
+  color: tomato;
+}
+
+span{
+  color: yellow;
+}

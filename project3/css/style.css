@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  position: relative;
+
+}
+
+.box_red {
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 200px;
+  height: 100px;
+  background-color: red;
+  border: 5px solid #000;
+  position: absolute;
+  z-index: 6;
+  transition: background-color 2s, width .5s;
+}
+
+.box_red:hover {
+  background-color: grey;
+  width: 300px;
+}
+
+.box_yelow {
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 5px solid #000;
+  position: absolute;
+  top: 50px;
+  z-index: 5;
+  transition: background-color 2s, width .5s;
+}
+
+.box_yelow:hover {
+  background-color: pink;
+  width: 400px;
+}
+
+.box_green {
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 400px;
+  height: 100px;
+  background-color: green;
+  border: 5px solid #000;
+  position: absolute;
+  top: 100px;
+  z-index: 4;
+  transition: background-color 2s, width .5s;
+}
+
+.box_green:hover {
+  background-color: blue;
+  width: 500px;
+}
+
+.box_blue {
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 500px;
+  height: 100px;
+  background-color: blue;
+  border: 5px solid #000;
+  position: absolute;
+  top: 150px;
+  z-index: 3;
+  transition: background-color 2s, width .5s;
+}
+
+.box_blue:hover {
+  background-color: green;
+  width: 600px;
+}
+
+.box_pink {
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 600px;
+  height: 100px;
+  background-color: pink;
+  border: 5px solid #000;
+  position: absolute;
+  top: 200px;
+  z-index: 2;
+  transition: background-color 2s, width .5s;
+}
+
+.box_pink:hover {
+  background-color: yellow;
+  width: 700px;
+}
+
+.box_grey {
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 700px;
+  height: 100px;
+  background-color: grey;
+  border: 5px solid #000;
+  position: absolute;
+  top: 250px;
+  z-index: 1;
+  transition: background-color 2s, width .5s;
+}
+
+.box_grey:hover {
+  background-color: red;
+  width: 800px;
+}
